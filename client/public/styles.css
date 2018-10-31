@@ -2,30 +2,72 @@ img {
   width: 100%;
 }
 
+/* Banner 1 */
 .landing-row1 {
   background: url('./images/happy2.jpg') no-repeat;
   background-size: cover;
   color: rgb(0, 0, 0);
   height: 40rem;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
+.landing-row1 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  width: 70%;
+  background: -webkit-linear-gradient(rgb(138, 138, 138), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-row1 p {
+  text-align: center;
+  width: 70%;
+}
+
+/* Banner 2 */
 .landing-row2 {
-  background: url('./images/skyscraper.jpg') no-repeat;
+  background: url('./images/clouds.jpg') no-repeat;
   background-size: cover;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   height: 40rem;
   padding-top: 10rem;
 }
 
+.landing-row2-content {
+  position: absolute;
+  bottom: 2rem;
+  left: 3rem;
+}
+
+.landing-row2 h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+}
+
+.landing-row2 p {
+  text-align: left;
+}
+
+/* Banner 3 */
 .landing-row3 {
   background: url('./images/simple.jpg') no-repeat;
   background-size: cover;
   height: 40rem;
-  padding-top: 10rem;
+  padding-top: 5rem;
   color: rgb(0, 0, 0);
 }
 
+.landing-row3 h1 {
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  width: 70%;
+}
+
+.landing-row3 p {
+  width: 70%;
+}
+
+/* Banner 4 */
 .landing-row4 {
   background: url('./images/typing.jpg') no-repeat;
   background-size: cover;

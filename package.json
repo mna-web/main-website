@@ -13,7 +13,7 @@
     "seed": "node database/seed.js",
     "client-install": "cd client && yarn install",
     "client": "cd client && npm start",
-    "dev": "concurrently \"npm run start-dev\" \"npm run build-dev\"",
+    "dev": "concurrently \"npm run build-dev\" \"npm run start-dev\"",
     "heroku-postbuild": "cd client yarn install && yarn install && npm run build"
   },
   "engines": {

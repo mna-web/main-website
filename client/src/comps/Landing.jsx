@@ -32,27 +32,35 @@ class Landing extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-12 text-center landing-row1">
-                <h1 className="display-3 mb-4">MNA Web Services</h1>
-                <p className="lead">Creating high quality, dynamic web content</p>
+                <h1 className="display-3">MNA Web Services</h1>
+                <p className="lead">High quality, dynamic web content on demand</p>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center landing-row2">
-                <h1 className="display-3 mb-4">the sky's the limit</h1>
-                <p className="lead">anything you can think up we can do</p>
+                <div className="landing-row2-content">
+                  <h1 className="display-3">cloud server integration</h1>
+                  <p className="lead">
+                    we use amazon web services or heroku to seamlessly deploy your website live
+                  </p>
+                </div>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center landing-row3">
-                <h1 className="display-3 mb-4">keep it simple</h1>
+                <h1 className="display-3">keep it simple</h1>
                 <p className="lead">
                   we take the pain out of setting up your website so you can focus on the business
+                </p>
+                <p className="info">
+                  we do everything from simple, static, informational sites to full dynamic web
+                  application including database implementation
                 </p>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center landing-row4">
-                <h1 className="display-3 mb-4">fourth row</h1>
+                <h1 className="display-3">fourth row</h1>
                 <p className="lead">fourth row stuff</p>
               </div>
             </div>
