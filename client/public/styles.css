@@ -2,18 +2,45 @@ img {
   width: 100%;
 }
 
-.landing {
-  position: relative;
-  background: url('./images/mna-landing.jpg') no-repeat;
+.landing-row1 {
+  background: url('./images/happy2.jpg') no-repeat;
   background-size: cover;
+  color: rgb(0, 0, 0);
+  height: 40rem;
+  padding-top: 10rem;
+}
+
+.landing-row2 {
+  background: url('./images/office.jpg') no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  height: 40rem;
+  padding-top: 10rem;
+}
+
+.landing-row3 {
+  background: url('./images/sunset.jpg') no-repeat;
+  background-size: cover;
+  height: 40rem;
+  padding-top: 10rem;
+}
+
+.landing-row4 {
+  background: url('./images/outdoors.jpg') no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.landing {
+  background-color: rgba(105, 105, 105, 0.671);
+  position: relative;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   margin-top: -24px;
   margin-bottom: -50px;
 }
 
 .landing-inner {
-  padding-top: 100px;
 }
 
 .landing h1 {
