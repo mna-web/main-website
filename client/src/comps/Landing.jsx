@@ -33,25 +33,27 @@ class Landing extends Component {
             <div className="row">
               <div className="col-lg-12 text-center landing-row1">
                 <h1 className="display-3 mb-4">MNA Web Services</h1>
-                <p className="lead"> Creating high quality, dynamic web content </p>
+                <p className="lead">Creating high quality, dynamic web content</p>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center landing-row2">
-                <h1 className="display-3 mb-4">SECOND ROW</h1>
-                <p className="lead"> second row stuff </p>
+                <h1 className="display-3 mb-4">the sky's the limit</h1>
+                <p className="lead">anything you can think up we can do</p>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center landing-row3">
-                <h1 className="display-3 mb-4">THIRD ROW</h1>
-                <p className="lead"> third row stuff </p>
+                <h1 className="display-3 mb-4">keep it simple</h1>
+                <p className="lead">
+                  we take the pain out of setting up your website so you can focus on the business
+                </p>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 text-center landing-row4">
-                <h1 className="display-3 mb-4">FOURTH ROW</h1>
-                <p className="lead"> fourth row stuff </p>
+                <h1 className="display-3 mb-4">fourth row</h1>
+                <p className="lead">fourth row stuff</p>
               </div>
             </div>
           </div>

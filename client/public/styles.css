@@ -11,7 +11,7 @@ img {
 }
 
 .landing-row2 {
-  background: url('./images/office.jpg') no-repeat;
+  background: url('./images/skyscraper.jpg') no-repeat;
   background-size: cover;
   color: rgb(0, 0, 0);
   height: 40rem;
@@ -19,17 +19,19 @@ img {
 }
 
 .landing-row3 {
-  background: url('./images/sunset.jpg') no-repeat;
+  background: url('./images/simple.jpg') no-repeat;
   background-size: cover;
   height: 40rem;
   padding-top: 10rem;
+  color: rgb(0, 0, 0);
 }
 
 .landing-row4 {
-  background: url('./images/outdoors.jpg') no-repeat;
+  background: url('./images/typing.jpg') no-repeat;
   background-size: cover;
   color: rgb(0, 0, 0);
   padding-top: 10rem;
+  height: 40rem;
 }
 
 .landing {
