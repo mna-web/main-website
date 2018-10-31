@@ -32,7 +32,7 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">DNA Web Services</h1>
+                <h1 className="display-3 mb-4">MNA Web Services</h1>
                 <p className="lead"> Creating high quality, dynamic web content </p>
               </div>
             </div>
