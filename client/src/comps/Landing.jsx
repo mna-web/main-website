@@ -36,6 +36,24 @@ class Landing extends Component {
                 <p className="lead"> Creating high quality, dynamic web content </p>
               </div>
             </div>
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <h1 className="display-3 mb-4">SECOND ROW</h1>
+                <p className="lead"> second row stuff </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <h1 className="display-3 mb-4">THIRD ROW</h1>
+                <p className="lead"> third row stuff </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <h1 className="display-3 mb-4">FOURTH ROW</h1>
+                <p className="lead"> fourth row stuff </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
