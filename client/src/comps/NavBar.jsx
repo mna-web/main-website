@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { logoutUser } from '../actions/authActions';
 
 class NavBar extends Component {
-  onLogoutClick = (e) => {
+  onLogoutClick = e => {
     e.preventDefault();
     this.props.logoutUser();
   };
@@ -45,20 +45,19 @@ class NavBar extends Component {
     );
 
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+      <nav className="navbar navbar-expand-sm justify-content-between">
         <div className="container">
           <Link className="navbar-brand" to="/">
             MNA Web Services
           </Link>
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#mobile-nav"
           >
             <span className="navbar-toggler-icon" />
-          </button>
-          {isAuthenticated ? authLinks : guestLinks}
+          </button> */}
         </div>
       </nav>
     );
@@ -79,5 +78,5 @@ const mapStateToProps = state => ({
 
 export default connect(
   mapStateToProps,
-  { logoutUser },
+  { logoutUser }
 )(NavBar);
