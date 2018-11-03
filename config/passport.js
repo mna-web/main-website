@@ -3,7 +3,7 @@ const { ExtractJwt } = require('passport-jwt');
 const mongoose = require('mongoose');
 
 const User = mongoose.model('users');
-const keys = require('./keys');
+const keys = require('./keys_dev');
 
 const opts = {};
 opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();

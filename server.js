@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // DB Config
-const dbURI = require('./config/keys.js').mongoURI;
+const dbURI = require('./config/keys_dev.js').mongoURI;
 
 const dbURL = process.env.DB_HOST || dbURI;
 const port = process.env.PORT || 8000;
